@@ -1,0 +1,14 @@
+    <header class="content header">
+        <article class="contain">
+            <h2 class="title">ASESORIAS DEPORTIVAS</h2>
+            <h2 class="title">JSHU</h2>
+        </article>
+    </header>>>
+
+
+  .quienes-somos {
+    background: url(img/GE-fondo21.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  }
