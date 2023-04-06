@@ -158,15 +158,25 @@ body {
     background: url(img/mjesus1.png) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
-    text-align: center;
 }
+
+.price2 {
+  background: url(img/mjesus1.png) no-repeat center;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: 0cap;
+}
+
+
 
 .content {
     height: 50vh;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    column-count: 1;
 }
 
 .contact {
@@ -176,6 +186,7 @@ body {
 }
 
 .seccion-con-fondo  {
+    
     width: 100%;
     box-sizing:border-box;
     
@@ -220,69 +231,97 @@ body {
   }
 
 
-      /* Contactos */
-      #contacto {
-        background-color: #f7f7f7;
-        padding: 40px;
-        margin-top: 50px;
-        border-radius: 5px;
-        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-      }
+  /* Contactos */
+  #contacto {
+    background-color: #f7f7f7;
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  }
     
-      #contacto h2 {
-        font-size: 32px;
-        margin-bottom: 20px;
-        text-align: center;
-      }
+  #contacto h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
     
-      #contacto form {
-        display: flex;
-        flex-direction: column;
-      }
+  #contacto form {
+    display: flex;
+    flex-direction: column;
+  }
     
-      #contacto label {
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
+  #contacto label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
     
-      #contacto input[type="text"],
-      #contacto input[type="email"],
-      #contacto textarea {
-        padding: 10px;
-        margin-bottom: 20px;
-        border-radius: 5px;
-        border: none;
-        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-      }
+  #contacto input[type="text"],
+  #contacto input[type="email"],
+  #contacto textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
     
-      #contacto input[type="submit"] {
-        background-color: #6c5ce7;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 20px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: background-color 0.2s ease-in-out;
-      }
+  #contacto input[type="submit"] {
+    background-color: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
     
-      #contacto input[type="submit"]:hover {
-        background-color: #4834d4;
-      }
+  #contacto input[type="submit"]:hover {
+    background-color: #4834d4;
+  }
     
-      #contacto p {
-        margin-top: 20px;
-        text-align: center;
-      }
+  #contacto p {
+    margin-top: 20px;
+    text-align: center;
+  }
     
-      #mapa {
-        height: 300px;
-        width: 100%;
-        margin-top: 40px;
-        border-radius: 5px;
-        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-        /* Aquí puedes agregar más estilos para el mapa, dependiendo de la herramienta que estés utilizando */
-      }
+  #mapa {
+    height: 300px;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    /* Aquí puedes agregar más estilos para el mapa, dependiendo de la herramienta que estés utilizando */
+  }
+
+  .quienesSomos-text {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+  }
+      
+  .quienesSomos-text p {
+    margin-bottom: 10px;
+  }
+
+  .quienesSomos-text h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .box {
+    border: 5px solid #f70eb1;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+
 
 
 @media (max-width: 768px) {
