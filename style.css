@@ -22,34 +22,6 @@ body {
     z-index: 100;
 }
 
-.navbar {
-    display: flex;
-    margin-right: 10px;
-}
-
-.logo {
-    margin-left: 30px;
-}
-
-.logo a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-.navbar a {
-    display: block;
-    padding: 20px 20px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-.navbar a:hover {
-    background: #3f3f3f;
-}
 
 .header {
     display: flex;
@@ -98,14 +70,6 @@ body {
 
 .btn-home a {
     margin: 0 10px;
-}
-
-
-
-
-.sau {
-    padding: 30px;
-    background: #1f1d1d
 }
 
 .box-container {
@@ -168,13 +132,13 @@ body {
     display: flex;
     justify-content: center;
     column-count: 1;
-}
+  }
 
 .contact {
     padding-top: 20px;
     background: #171717;
     padding-bottom: 0;
-}
+  }
 
 .seccion-con-fondo  {
     
@@ -239,18 +203,21 @@ body {
     width: 100%;
     height: 100%;
   }
-  En este ejemplo, se establece un ancho y un alto relativos del contenedor de video utilizando la propiedad padding-bottom. El padding-top se establece para proporcionar espacio para los controles de video. La propiedad position: relative se utiliza para establecer un contexto de posición para el div, que será necesario para posicionar el video. Luego, se establece el position: absolute para el elemento video dentro del div, lo que permite que el video ocupe todo el espacio del contenedor.
-  
-  Asegúrate de incluir una fuente de video adecuada para el atributo src del elemento video. Puedes utilizar varios formatos de video para asegurarte de que el video se pueda reproducir en diferentes navegadores.
-  Con estos pasos, deberías poder configurar un div que contenga un video en HTML y CSS.
   
   
-  
-  
-  
-  
+  /* Fin Video */
 
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
   /* Contactos */
+  
   #contacto {
     background-color: #f7f7f7;
     padding: 40px;
