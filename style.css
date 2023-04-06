@@ -160,15 +160,6 @@ body {
     background-size: cover;
 }
 
-.price2 {
-  background: url(img/mjesus1.png) no-repeat center;
-  background-attachment: fixed;
-  background-size:cover;
-  background-position: 0cap;
-}
-
-
-
 .content {
     height: 50vh;
     display: flex;
@@ -230,6 +221,15 @@ body {
     color: #5519e2;
   }
 
+
+   /* Video */
+
+   .video-container {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 640px;
+  }
 
   /* Contactos */
   #contacto {
@@ -322,7 +322,12 @@ body {
   }
 
 
-
+  .section-Fondo {
+    background-image: url(img/fondo3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+  }
 
 @media (max-width: 768px) {
 
